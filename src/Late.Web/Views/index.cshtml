@@ -1,0 +1,11 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<Late.Domain.Summary>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <table><tr><td>@Model.From</td></tr><tr><td>@Model.To</td></tr></table>
+        <div>@Model.NextDeparture.TimetabledDeparture</div>
+    </body>
+</html>

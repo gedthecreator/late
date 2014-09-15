@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Next Train</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body style="margin:0px;padding:10px;font-family: 'Dosis', sans-serif;background-color:#1C3754;">
+    @{
+        var next = Model.Departures[0];
+    }
+    <div style="color:#FFFFFF;font-size:18pt;">next train <span style="color:#6E91CF">leaves in</span></div>
+    <div style="margin-top:10px;text-align:center;color:#FFFFFF;font-size:28pt;font-weight:bold;">@next.TimeUntilDeparture()</div>
+</body>
+</html>

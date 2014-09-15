@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BrokenOnTime" xml:space="preserve">
+    <value>&lt;a class="clr" href="/pj/ldbdetails/H5U1l1ddtyWf%23rZ39eVBPw%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;11:42&lt;br&gt;&lt;small&gt;On time&lt;/small&gt;&lt;/span&gt;&lt;span class="station"&gt;London Bridge&lt;/span&gt;&lt;span class="platform"&gt;&lt;small&gt;Platform&lt;/small&gt;&lt;br&gt;1&lt;/span&gt;&lt;/a&gt;</value>
+  </data>
+  <data name="BrokenSummary" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd"&gt;
+
+
+
+
+
+
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"&gt;
+
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta name="viewport" content="maximum-scale=1.0,width=device-width,initial-scale=1.0, user-scalable=0" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;meta http-equiv="expires" content="0" /&gt;
+&lt;meta http-equiv="Pragma" content="no-cache" /&gt;
+&lt;meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate" /&gt;
+
+&lt;title&gt;National Rail Enquiries&lt;/title&gt;
+
+&lt;script type="text/javascript"&gt;
+        document.documentElement.className += "js";
+      (function(w){var s;
+        function top(){(!s||s===1)&amp;&amp;w.scrollTo(0,1)}
+        
+        /mobile/i.test(w.navigator.userAgent)&amp;&amp;!w.location.hash&amp;&amp;setTimeout(function(){
+          w.document.documentElement.className+=" ios";
+          w.addEventListener("orientationchange",top,false);
+          w.addEventListener("scroll",function(){s=this.scrollY},false);
+          top()
+        },1000)
+            })(window);       
+&lt;/script&gt;
+&lt;script type="text/javascript" src="http://d1bxx5k5nm0lnj.cloudfront.net/mobile/foresee-alive.js"&gt;&lt;/script&gt;
+&lt;link href="/css/screen.css" rel="stylesheet" type="text/css" /&gt;
+&lt;link href="/css/screen-modern.css" rel="stylesheet" type="text/css" /&gt;
+&lt;link rel="apple-touch-icon" href="//d7cizd44vlm94.cloudfront.net/icon-ios.png" /&gt; 
+&lt;script type="text/javascript" src="http://d1bxx5k5nm0lnj.cloudfront.net/mobile/foresee-alive.js"&gt;&lt;/script&gt;
+
+
+
+&lt;script type='text/javascript'&gt;
+  (function() {
+    var useSSL = 'https:' == document.location.protocol;
+    var src = (useSSL ? 'https:' : 'http:') +
+    '//www.googletagservices.com/tag/js/gpt.js';
+    document.write('&lt;scr' + 'ipt src="' + src + '"&gt;&lt;/scr' + 'ipt&gt;');
+  })();
+&lt;/script&gt;
+
+
+&lt;script type="text/javascript"&gt;
+  googletag.defineSlot("/7369/nremobile/ldb/results", [320, 50], "div-gpt-ad-4454471500-0")
+    .addService(googletag.pubads())
+    
+      .setTargeting("loccity", "115")
+    
+      .setTargeting("destcity", "106")
+    
+      .setTargeting("locst", "MAN")
+    
+      .setTargeting("destst", "LIV")
+    
+      .setTargeting("dd", "9")
+    
+      .setTargeting("mm", "09")
+    
+      .setTargeting("yyyy", "2014")
+    
+      .setTargeting("ti", "1737")
+    
+      .setTargeting("toc", "EM")
+    
+      .setTargeting("toc", "NT")
+    
+      .setTargeting("toc", "TP")
+    
+  ;
+  googletag.pubads().enableSyncRendering();
+  googletag.enableServices();
+&lt;/script&gt;
+
+
+&lt;!-- &lt;script type='text/javascript'&gt;
+  googletag.defineSlot('/7369/nremobiletest', [6, 1], 'div-gpt-ad-1374576123144-0').addService(googletag.pubads());
+  googletag.pubads().enableSyncRendering();
+  googletag.enableServices();
+&lt;/script&gt; --&gt;
+
+
+
+&lt;script type="text/javascript" id="optimost_global_head" src="//d2uncb19xzxhzx.cloudfront.net/autonomy_m/optimost_global_head.js?live=true"&gt;&lt;/script&gt;
+&lt;/head&gt; 
+&lt;body&gt;
+
+  
+&lt;div class="header"&gt;
+  &lt;div class="hInner"&gt;
+    
+      &lt;div class="hBar"&gt;
+        
+
+
+
+
+  &lt;div id="div-gpt-ad-4454471500-0"&gt;
+    
+    &lt;script type="text/javascript"&gt;
+        googletag.display("div-gpt-ad-4454471500-0");
+    &lt;/script&gt;
+    
+    &lt;noscript&gt;
+        
+          
+            
+              &lt;a href="http://pubads.g.doubleclick.net/gampad/jump?iu=7369/nremobile/ldb/results&amp;sz=320x50&amp;c=4454471500&amp;t=loccity%3D115%26destcity%3D106%26locst%3DMAN%26destst%3DLIV%26dd%3D9%26mm%3D09%26yyyy%3D2014%26ti%3D1737%26toc%3DEM%26toc%3DNT%26toc%3DTP" &gt;
+                &lt;img src="http://pubads.g.doubleclick.net/gampad/ad?iu=7369/nremobile/ldb/results&amp;sz=320x50&amp;c=4454471500&amp;t=loccity%3D115%26destcity%3D106%26locst%3DMAN%26destst%3DLIV%26dd%3D9%26mm%3D09%26yyyy%3D2014%26ti%3D1737%26toc%3DEM%26toc%3DNT%26toc%3DTP" /&gt;
+              &lt;/a&gt;
+            
+      
+      &lt;/noscript&gt;
+    
+  &lt;/div&gt;
+
+      &lt;/div&gt; 
+    
+    
+    &lt;div class="title clr"&gt;
+      &lt;a href="/" class="logo"&gt;
+        &lt;img src="/img/nremed.png" alt="National Rail Enquiries" /&gt;
+      &lt;/a&gt;
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div&gt;
+    &lt;a id="PageTop"&gt;&lt;/a&gt;
+    
+      
+        
+        
+        
+      
+      
+      
+    
+
+    
+      
+      
+        
+      
+    
+
+    
+      
+      
+        
+      
+      
+      &lt;br /&gt;
+    
+
+    
+
+    &lt;div class="header-panel clr"&gt;
+      &lt;h1&gt;Live departure boards&lt;/h1&gt;
+      &lt;a href="" class="rBtn"&gt;&lt;img
+        src="/img/arrowcircle.gif" width="15" height="17" alt="Reload" /&gt; &lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class="tabs clr"&gt;
+      
+        
+        
+          &lt;span class="first"&gt;Departing&lt;/span&gt;
+          &lt;a href="/pj/ldbboard/arr/MAN/LIV/From" class="second"&gt;Arriving&lt;/a&gt;
+        
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="pageCont"&gt;
+    &lt;table class="jDetails jDest"&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td class="label"&gt;From:&lt;/td&gt;
+          &lt;td&gt;Manchester Piccadilly&lt;/td&gt;
+          &lt;td class="edit ta-r"&gt;&lt;a href="/pj/ld"&gt;Edit&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+          
+            &lt;tr class="pb10"&gt;
+              &lt;td class="label"&gt;To:&lt;/td&gt;
+              &lt;td&gt;Liverpool Lime Street&lt;/td&gt;
+              &lt;td class="edit ta-r"&gt;&amp;nbsp;&lt;/td&gt;
+            &lt;/tr&gt;
+          
+          
+         
+      
+        &lt;!-- bulletin TODO --&gt;
+        
+        
+        
+          
+          
+            
+          
+        
+
+        
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+    
+                    &lt;h2 class="hList"&gt;Train departures&lt;/h2&gt;
+                    &lt;ul class="aList clr"&gt;
+                      
+                        
+                        
+                        
+
+
+
+        
+
+        
+
+
+&lt;li class=""&gt;&lt;a class="clr" href="/pj/ldbdetails/H979BPfbSGvJ84otSv%2306w%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;17:37&lt;br/&gt;&lt;small&gt;17:39&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;Liverpool Lime Street&lt;/span&gt;&lt;span class="platform"&gt;&lt;small&gt;Platform&lt;/small&gt;&lt;br/&gt;14&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+
+
+  
+                      
+                        
+                        
+                          
+                        
+                        
+
+
+
+        
+
+        
+
+
+&lt;li class="even"&gt;&lt;a class="clr" href="/pj/ldbdetails/5wOLgUobOx7DJCJT8ugXPQ%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;17:55&lt;br/&gt;&lt;small&gt;On time&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;Liverpool Lime Street&lt;/span&gt;&lt;span class="platform"&gt;&lt;small&gt;Platform&lt;/small&gt;&lt;br/&gt;14&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+
+
+  
+                      
+                        
+                        
+                        
+
+
+
+        
+
+        
+
+
+&lt;li class=""&gt;&lt;a class="clr" href="/pj/ldbdetails/ff09PmNkRNSGLzE4fKUopA%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;18:07&lt;br/&gt;&lt;small&gt;18:11&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;Liverpool Lime Street&lt;/span&gt;&lt;span class="platform"&gt;&lt;small&gt;Platform&lt;/small&gt;&lt;br/&gt;14&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+
+
+  
+                      
+                        
+                        
+                          
+                        
+                        
+
+
+
+        
+
+        
+
+
+&lt;li class="even"&gt;&lt;a class="clr" href="/pj/ldbdetails/ope%23qRLJ0pwvJDjUV%2BiTLw%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;18:37&lt;br/&gt;&lt;small&gt;On time&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;Liverpool Lime Street&lt;/span&gt;&lt;span class="platform"&gt;&lt;small&gt;Platform&lt;/small&gt;&lt;br/&gt;14&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+
+
+  
+                      
+                        
+                        
+                        
+
+
+
+        
+
+        
+
+
+&lt;li class=""&gt;&lt;a class="clr" href="/pj/ldbdetails/HZcAnDGZzXZzhi%23qnToBSA%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;18:55&lt;br/&gt;&lt;small&gt;On time&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;Liverpool Lime Street&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+
+
+  
+                      
+                        
+                        
+                          
+                        
+                        
+
+
+
+        
+
+        
+
+
+&lt;li class="even"&gt;&lt;a class="clr" href="/pj/ldbdetails/lWqFecOAc8Vw429iExnWEA%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;19:07&lt;br/&gt;&lt;small&gt;On time&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;Liverpool Lime Street&lt;/span&gt;&lt;span class="platform"&gt;&lt;small&gt;Platform&lt;/small&gt;&lt;br/&gt;14&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+
+
+  
+                      
+                        
+                        
+                        
+
+
+
+        
+
+        
+
+
+&lt;li class=""&gt;&lt;a class="clr" href="/pj/ldbdetails/gVErwZCeae3AmX5WdTq6bw%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;19:37&lt;br/&gt;&lt;small&gt;On time&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;Liverpool Lime Street&lt;/span&gt;&lt;span class="platform"&gt;&lt;small&gt;Platform&lt;/small&gt;&lt;br/&gt;14&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+
+
+  
+                      
+                    &lt;/ul&gt;
+                    &lt;hr class="hr4"&gt;
+                
+    &lt;br /&gt;
+  &lt;/div&gt;
+
+  &lt;div id="footerDisruptions"&gt;
+  &lt;a href="#" id="alerts" name="alerts"&gt;&lt;/a&gt;
+  &lt;ul class="aBtns"&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="footer"&gt;
+  &lt;p&gt;
+    &lt;a href="/"&gt;Home&lt;/a&gt; |  
+        
+        
+    &lt;a href="/pj/terms"&gt;Terms and conditions&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/div&gt;  
+    
+&lt;img src="/mobile/analytics/ga?utmac=MO-316623-22&amp;utmn=2056932703&amp;utmr=-&amp;utmp=%2Fpda%2Fpj%2Fldbboard%2Fdep%2FMAN%2FLIV%2FTo&amp;guid=ON" /&gt;
+
+
+    &lt;script type="text/javascript" src="http://d1bxx5k5nm0lnj.cloudfront.net/mobile/foresee-trigger.js"&gt; &lt;/script&gt;
+    &lt;script type="text/javascript" src="//d2uncb19xzxhzx.cloudfront.net/autonomy_m/optimost_global_body1.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="//d2uncb19xzxhzx.cloudfront.net/autonomy_m/optimost_global_body2.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>&lt;a class="clr" href="/pj/ldbdetails/atwCLq1z66nxyALPitRrVw%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;13:33&lt;br /&gt;&lt;small class="delayed"&gt;Cancelled&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;London Charing Cross&lt;br /&gt;&lt;small&gt; via Tonbridge&lt;/small&gt;&lt;/span&gt;&lt;/a&gt;</value>
+  </data>
+  <data name="ExpectedDelay" xml:space="preserve">
+    <value>&lt;a class="clr" href="/pj/ldbdetails/Bj0qjNzG%23M6Hrijqdpj02w%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;17:17&lt;br/&gt;&lt;small&gt;17:19&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;Crystal Palace&lt;/span&gt;&lt;span class="platform"&gt;&lt;small&gt;Platform&lt;/small&gt;&lt;br/&gt;2&lt;/span&gt;&lt;/a&gt;</value>
+  </data>
+  <data name="OnTime" xml:space="preserve">
+    <value>&lt;a class="clr" href="/pj/ldbdetails/H5U1l1ddtyWf%23rZ39eVBPw%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;11:42&lt;br/&gt;&lt;small&gt;On time&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;London Bridge&lt;/span&gt;&lt;span class="platform"&gt;&lt;small&gt;Platform&lt;/small&gt;&lt;br/&gt;1&lt;/span&gt;&lt;/a&gt;</value>
+  </data>
+  <data name="UnknownDelay" xml:space="preserve">
+    <value>&lt;a class="clr" href="/pj/ldbdetails/QYlfZX24XdmOEB7R7ULn7g%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;13:15&lt;br /&gt;&lt;small class="delayed"&gt;Delayed&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;Reigate&lt;/span&gt;&lt;/a&gt;</value>
+  </data>
+  <data name="ValidSummary" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+    &lt;meta name="viewport" content="maximum-scale=1.0,width=device-width,initial-scale=1.0, user-scalable=0" /&gt;
+    &lt;meta name="format-detection" content="telephone=no" /&gt;
+    &lt;meta http-equiv="expires" content="0" /&gt;
+    &lt;meta http-equiv="Pragma" content="no-cache" /&gt;
+    &lt;meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate" /&gt;
+    &lt;title&gt;National Rail Enquiries&lt;/title&gt;
+    &lt;script type="text/javascript"&gt;
+      document.documentElement.className += "js";
+      (function(w){var s;
+      function top(){(!s||s===1)&amp;&amp;w.scrollTo(0,1)}
+      
+      /mobile/i.test(w.navigator.userAgent)&amp;&amp;!w.location.hash&amp;&amp;setTimeout(function(){
+      w.document.documentElement.className+=" ios";
+      w.addEventListener("orientationchange",top,false);
+      w.addEventListener("scroll",function(){s=this.scrollY},false);
+      top()
+      },1000)
+            })(window);
+    &lt;/script&gt;
+    &lt;script type="text/javascript" src="http://d1bxx5k5nm0lnj.cloudfront.net/mobile/foresee-alive.js"&gt;&lt;/script&gt;
+    &lt;link href="/css/screen.css" rel="stylesheet" type="text/css" /&gt;
+    &lt;link href="/css/screen-modern.css" rel="stylesheet" type="text/css" /&gt;
+    &lt;link rel="apple-touch-icon" href="//d7cizd44vlm94.cloudfront.net/icon-ios.png" /&gt;
+    &lt;script type="text/javascript" src="http://d1bxx5k5nm0lnj.cloudfront.net/mobile/foresee-alive.js"&gt;&lt;/script&gt;
+    &lt;script type='text/javascript'&gt;
+      (function() {
+      	var useSSL = 'https:' == document.location.protocol;
+      	var src = (useSSL ? 'https:' : 'http:') +
+      	'//www.googletagservices.com/tag/js/gpt.js';
+      	document.write('&lt;scr' + 'ipt src="' + src + '"&gt;&lt;/scr' + 'ipt&gt;');
+      })();
+    &lt;/script&gt;
+    &lt;script type="text/javascript"&gt;
+      googletag.defineSlot("/7369/nremobile/ldb/results", [320, 50], "div-gpt-ad-4577247821-0")
+        .addService(googletag.pubads())
+      
+        	.setTargeting("loccity", "158")
+      
+        	.setTargeting("destcity", "182")
+      
+        	.setTargeting("locst", "SYD")
+      
+        	.setTargeting("destst", "LBG")
+      
+        	.setTargeting("dd", "4")
+      
+        	.setTargeting("mm", "08")
+      
+        	.setTargeting("yyyy", "2014")
+      
+        	.setTargeting("ti", "1141")
+      
+        	.setTargeting("toc", "SN")
+      
+      ;
+      googletag.pubads().enableSyncRendering();
+      googletag.enableServices();
+    &lt;/script&gt;
+    &lt;!-- &lt;script type='text/javascript'&gt;
+      googletag.defineSlot('/7369/nremobiletest', [6, 1], 'div-gpt-ad-1374576123144-0').addService(googletag.pubads());
+      googletag.pubads().enableSyncRendering();
+      googletag.enableServices();
+      &lt;/script&gt; --&gt;
+    &lt;script type="text/javascript" id="optimost_global_head" src="//d2uncb19xzxhzx.cloudfront.net/autonomy_m/optimost_global_head.js?live=true"&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class="header"&gt;
+      &lt;div class="hInner"&gt;
+        &lt;div class="hBar"&gt;
+          &lt;div id="div-gpt-ad-4577247821-0"&gt;
+            &lt;script type="text/javascript"&gt;
+              googletag.display("div-gpt-ad-4577247821-0");
+            &lt;/script&gt;
+            &lt;noscript&gt;
+              &lt;a href="http://pubads.g.doubleclick.net/gampad/jump?iu=7369/nremobile/ldb/results&amp;sz=320x50&amp;c=4577247821&amp;t=loccity%3D158%26destcity%3D182%26locst%3DSYD%26destst%3DLBG%26dd%3D4%26mm%3D08%26yyyy%3D2014%26ti%3D1141%26toc%3DSN" &gt;
+              &lt;img src="http://pubads.g.doubleclick.net/gampad/ad?iu=7369/nremobile/ldb/results&amp;sz=320x50&amp;c=4577247821&amp;t=loccity%3D158%26destcity%3D182%26locst%3DSYD%26destst%3DLBG%26dd%3D4%26mm%3D08%26yyyy%3D2014%26ti%3D1141%26toc%3DSN" /&gt;
+              &lt;/a&gt;
+            &lt;/noscript&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="title clr"&gt;
+          &lt;a href="/" class="logo"&gt;
+          &lt;img src="/img/nremed.png" alt="National Rail Enquiries" /&gt;
+          &lt;/a&gt;
+          &lt;a class="alerts" href="#alerts"&gt;&lt;img width="26" height="24" alt="Update" src="/img/exclam.png"&gt;(1)&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;a id="PageTop"&gt;&lt;/a&gt;
+      &lt;br /&gt;
+      &lt;div class="header-panel clr"&gt;
+        &lt;h1&gt;Live departure boards&lt;/h1&gt;
+        &lt;a href="" class="rBtn"&gt;&lt;img
+          src="/img/arrowcircle.gif" width="15" height="17" alt="Reload" /&gt; &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class="tabs clr"&gt;
+        &lt;span class="first"&gt;Departing&lt;/span&gt;
+        &lt;a href="/pj/ldbboard/arr/SYD/LBG/From" class="second"&gt;Arriving&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="pageCont"&gt;
+      &lt;table class="jDetails jDest"&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;
+            &lt;td class="label"&gt;From:&lt;/td&gt;
+            &lt;td&gt;Sydenham (London)&lt;/td&gt;
+            &lt;td class="edit ta-r"&gt;&lt;a href="/pj/ld"&gt;Edit&lt;/a&gt;&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr class="pb10"&gt;
+            &lt;td class="label"&gt;To:&lt;/td&gt;
+            &lt;td&gt;London Bridge&lt;/td&gt;
+            &lt;td class="edit ta-r"&gt;&amp;nbsp;&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;!-- bulletin TODO --&gt;
+          &lt;tr class="alert alert-alt"&gt;
+            &lt;td colspan="3"&gt;
+              &lt;p&gt;Trains to and from London Bridge are being delayed by up to&amp;nbsp;15 minutes. More details can be found in &lt;A href="http://nationalrail.co.uk/service_disruptions/80815.aspx"&gt;Latest Travel News&lt;/A&gt;.&lt;/p&gt;
+            &lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+      &lt;h2 class="hList"&gt;Train departures&lt;/h2&gt;
+      &lt;ul class="aList clr"&gt;
+        &lt;li class=""&gt;&lt;a class="clr" href="/pj/ldbdetails/H5U1l1ddtyWf%23rZ39eVBPw%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;11:42&lt;br/&gt;&lt;small&gt;On time&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;London Bridge&lt;/span&gt;&lt;span class="platform"&gt;&lt;small&gt;Platform&lt;/small&gt;&lt;br/&gt;1&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=""&gt;&lt;a class="clr" href="/pj/ldbdetails/Eqps8SFjpwmPNTxGQJz%2B2g%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;13:24&lt;br /&gt;&lt;small&gt;13:27&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;London Bridge&lt;/span&gt;&lt;span class="platform"&gt;&lt;small&gt;Platform&lt;/small&gt;&lt;br /&gt;1&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=""&gt;&lt;a class="clr" href="/pj/ldbdetails/atwCLq1z66nxyALPitRrVw%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;13:33&lt;br /&gt;&lt;small class="delayed"&gt;Cancelled&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;London Charing Cross&lt;br /&gt;&lt;small&gt; via Tonbridge&lt;/small&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=""&gt;&lt;a class="clr" href="/pj/ldbdetails/QYlfZX24XdmOEB7R7ULn7g%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;13:15&lt;br /&gt;&lt;small class="delayed"&gt;Delayed&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;Reigate&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=""&gt;&lt;a class="clr" href="/pj/ldbdetails/AhijMoAZQwqK4iuSWk1lsQ%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;12:42&lt;br/&gt;&lt;small&gt;On time&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;London Bridge&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="even"&gt;&lt;a class="clr" href="/pj/ldbdetails/gc1xBLIQ7g2fSJpAFkZ8EA%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;12:54&lt;br/&gt;&lt;small&gt;On time&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;London Bridge&lt;/span&gt;&lt;span class="platform"&gt;&lt;small&gt;Platform&lt;/small&gt;&lt;br/&gt;1&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=""&gt;&lt;a class="clr" href="/pj/ldbdetails/Bj0qjNzG%23M6Hrijqdpj02w%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;17:17&lt;br/&gt;&lt;small&gt;17:19&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;Crystal Palace&lt;/span&gt;&lt;span class="platform"&gt;&lt;small&gt;Platform&lt;/small&gt;&lt;br/&gt;2&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="even"&gt;&lt;a class="clr" href="/pj/ldbdetails/Eqps8SFjpwmPNTxGQJz%2B2g%3D%3D/?board=dep"&gt;&lt;span class="time em"&gt;13:24&lt;br/&gt;&lt;small&gt;On time&lt;/small&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="station"&gt;London Bridge&lt;/span&gt;&lt;span class="platform"&gt;&lt;small&gt;Platform&lt;/small&gt;&lt;br/&gt;1&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;hr class="hr4"&gt;
+      &lt;br /&gt;
+    &lt;/div&gt;
+    &lt;div id="footerDisruptions"&gt;
+      &lt;a href="#" id="alerts" name="alerts"&gt;&lt;/a&gt;
+      &lt;ul class="aBtns"&gt;
+        &lt;li&gt;&lt;a href="http://m.nationalrail.co.uk/pj/disruption/details/32E1A96FAF524BA3B75FA8293E6E357F"&gt;&lt;img width="15" height="14" alt="Alert" src="/img/alert.png"&gt;Buses replace trains between Harlech and Pwllheli until at least the end of August 2014&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class="footer"&gt;
+      &lt;p&gt;
+        &lt;a href="/"&gt;Home&lt;/a&gt; |
+        &lt;a href="/pj/terms"&gt;Terms and conditions&lt;/a&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;img src="/mobile/analytics/ga?utmac=MO-316623-22&amp;utmn=-848494994&amp;utmr=-&amp;utmp=%2Fpda%2Fpj%2Fldbboard%2Fdep%2FSYD%2FLBG%2FTo&amp;guid=ON" /&gt;
+    &lt;script type="text/javascript" src="http://d1bxx5k5nm0lnj.cloudfront.net/mobile/foresee-trigger.js"&gt; &lt;/script&gt;
+    &lt;script type="text/javascript" src="//d2uncb19xzxhzx.cloudfront.net/autonomy_m/optimost_global_body1.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="//d2uncb19xzxhzx.cloudfront.net/autonomy_m/optimost_global_body2.js"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+  &lt;html&gt;</value>
+  </data>
+</root>
