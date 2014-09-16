@@ -75,10 +75,13 @@ namespace Late.Domain
             //U	E	O	O	The next train is delayed	Minutes until next train	You might want to find a different route
             if (first.IsUnknownDelay() && second.IsExpectedDelay()) { Alert = "Trains are delayed"; Suggestion = "Find an alternate route"; }
 
-            var onTime = Departures.Find(d => d.IsOnTime());
-            if (onTime != null)
+            foreach (var departure in Departures)
             {
-                NextDeparture = onTime;
+                if (departure is ExpectedDelay || departure is OnTime)
+                {
+                    NextDeparture = departure;
+                    break;
+                }
             }
         }
     }

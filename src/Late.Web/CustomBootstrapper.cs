@@ -10,6 +10,8 @@ namespace Late.Web
     {
         protected override void ApplicationStartup(Nancy.TinyIoc.TinyIoCContainer container, Nancy.Bootstrapper.IPipelines pipelines)
         {
+            container.Register<IMobileWebClient>(new MobileWebClient());
+
             base.ApplicationStartup(container, pipelines);
         }
     }

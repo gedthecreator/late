@@ -1,11 +1,42 @@
 ﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<Late.Domain.Summary>
 <!DOCTYPE html>
 <html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-        <table><tr><td>@Model.From</td></tr><tr><td>@Model.To</td></tr></table>
-        <div>@Model.NextDeparture.Platform</div>
-    </body>
+<head>
+    <title></title>
+</head>
+<body>
+    <table><tr><td>@Model.From</td></tr><tr><td>@Model.To</td></tr></table>
+    <div>@Model.NextDeparture.Platform</div>
+
+<div>
+    @if (Model.Alert != null)
+    {
+        <div>@Model.Alert</div>
+    }
+</div>
+<div>
+    @if (Model.Suggestion != null)
+    {
+        <div>@Model.Suggestion</div>
+    }
+</div>
+<div>
+    @if (Model.NextDeparture is Late.Domain.OnTime)
+    {
+        <div>@((Model.NextDeparture as Late.Domain.OnTime).TimetabledDeparture)</div>
+    }
+    else if (Model.NextDeparture is Late.Domain.ExpectedDelay)
+    {
+        <div>@((Model.NextDeparture as Late.Domain.ExpectedDelay).ExpectedDeparture)</div>
+    }
+</div>
+
+
+<ul>
+    @foreach (var departure in Model.Departures)
+    {
+        <li>@departure.TimetabledDeparture</li>
+    }
+</ul>
+</body>
 </html>

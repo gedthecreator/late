@@ -10,7 +10,7 @@ namespace Late.Web
 {
     public class DepartureModule : NancyModule
     {
-        public DepartureModule()
+        public DepartureModule(IMobileWebClient webClient)
         {
             Get["/{from}/{to}"] = _ =>
                 {
@@ -23,11 +23,9 @@ namespace Late.Web
                     
                     var departuresUrl = string.Format(ConfigurationManager.AppSettings["DeparturesUrl"], _.from, _.to);
                     
-                    var webClient = new MobileWebClient();
-
                     var summary = Summary.Create(webClient.GetHtml(departuresUrl));
 
-                    return View["index", summary];
+                    return View["index.cshtml", summary];
                  };
         }
     }
