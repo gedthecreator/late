@@ -18,14 +18,16 @@ namespace Late.Web.Tests
     {
         TinyIoCContainer container;
 
+        public object[] OnTime = { Resource.ExpectedDelayHtml};
+
         [SetUp]
         public void SetUp()
         {
             container = new TinyIoCContainer();
         }
 
-        [Test]
-        public void ValidHtmlShouldReturnAnOkHttpStatus()
+        [TestCaseSource("OnTime")]
+        public void ValidHtmlShouldReturnAnOkHttpStatus(string html)
         {
             new Story("Valid HTML should return an OK HTTP Status")
                 .InOrderTo("know that I have received the correct response")
@@ -33,7 +35,7 @@ namespace Late.Web.Tests
                 .IWant("to call the Nancy service")
                 .WithScenario("Valid HTML")
                 .Given(IAskForSydenhamToLondonBridgeDepartures)
-                .When(ICallTheNancyService)
+                .When(ICallTheNancyService, html)
                 .Then(TheResponseShouldBeOk)
                 .Execute();
         }
@@ -43,10 +45,10 @@ namespace Late.Web.Tests
             container.Register<string>("/SYD/LBG" , "DeparturesUrl"); 
         }
         
-        public void ICallTheNancyService() 
+        public void ICallTheNancyService(string html) 
         {
             var mobileClient = A.Fake<IMobileWebClient>();
-            A.CallTo(() => mobileClient.GetHtml(A<string>.Ignored)).Returns(Resource.ExpectedDelayHtml);
+            A.CallTo(() => mobileClient.GetHtml(A<string>.Ignored)).Returns(html);
             
             var browser = new Browser(with => {
                 with.Module<DepartureModule>();
@@ -61,14 +63,18 @@ namespace Late.Web.Tests
                             with.HttpRequest();
                         });
 
-            Console.WriteLine(response.Body.AsString());
             container.Register<BrowserResponse>(response);
         }
-        public void TheResponseShouldBeOk() 
+        public void TheResponseShouldBeOk()
+        {
+            TheResponseShouldBe(HttpStatusCode.OK);
+        }
+
+        public void TheResponseShouldBe(HttpStatusCode status)
         {
             var response = container.Resolve<BrowserResponse>();
 
-            response.StatusCode.Should().Be(HttpStatusCode.OK);
+            response.StatusCode.Should().Be(status);
         }
     }
 }
