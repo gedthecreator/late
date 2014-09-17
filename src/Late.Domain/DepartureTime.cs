@@ -31,7 +31,7 @@ namespace Late.Domain
 
         public override string ToString()
         {
-            return string.Format("{0}:{1}", Hour, Minute);
+            return string.Format("{0:D2}:{1:D2}", Hour, Minute);
         }
     }
 }
